@@ -1,0 +1,22 @@
+{
+  "name": "neyaoz/notation",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Necati Yared Ozal",
+      "email": "mail@necatiozal.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "neyaoz/support": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Neyaoz\\Notation": ["src/Neyaoz/Notation"]
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
